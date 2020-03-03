@@ -57,8 +57,8 @@ class MiddleMenu extends React.Component {
             <Menu.Item>KIDS</Menu.Item>
             <Dropdown item text="BRANDS">
               <Dropdown.Menu>
-                <Dropdown.Item>Tank tops</Dropdown.Item>
-                <Dropdown.Item>Shirts</Dropdown.Item>
+                <Dropdown.Item>Never Lucky JP</Dropdown.Item>
+                <Dropdown.Item>Don't mind me just plugging my street team brand here</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <Menu.Item>SEARCH</Menu.Item>
@@ -71,7 +71,7 @@ class MiddleMenu extends React.Component {
 class FullWidthImage extends React.Component {
   render() {
     return (
-        <img fluid src="http://courses.ics.hawaii.edu/ics314s20/morea/ui-frameworks/experience-islandsnow-video-snapshot.png"></img>
+        <img class src="http://courses.ics.hawaii.edu/ics314s20/morea/ui-frameworks/experience-islandsnow-video-snapshot.png"></img>
     )
   }
 }
